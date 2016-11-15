@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+  <view class ="section">
+    <label>欢迎来到hello world！</label>
+    <input bindinput="bindKeyInput"/>
+  </view>
+  <view class = "section">
+    <text>用户名：</text>
+     <input bindinput="bindKeyInput"/>
+  </view>
+  <view class = "section">
+    <text>密码：</text>
+     <input password="true" bindinput="bindKeyInput"/>
+  </view>
+
+  <view class="section">
+    
+    <button bindtap="addItem">登录</button>
+    <button bindtap="addItem">注册</button>
+  </view>
+</view>
